@@ -4,6 +4,8 @@ const functionprint = function sum(num1,num2) {
     console.log(num1+num2);
 }
 
+console.log(typeof functionprint);
+
 functionprint(10,20)
 
 // Variable - Something which can Change
