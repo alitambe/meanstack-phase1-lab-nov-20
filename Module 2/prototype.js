@@ -1,7 +1,7 @@
 
 //class
 function Employee(name, designation, department){
-    this.name=name;
+    this.name=name; //Properties
     this.designation=designation;
     this.department=department;
 }
