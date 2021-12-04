@@ -1,8 +1,6 @@
 function node_Add(){
     // calling asynchronous
-    db_Add().then(
-        (value)=>{ console.log("Success");},
-        (err)=>{console.log("Error");});
+    db_Add().then((value)=>{ console.log("Success");},(err)=>{console.log("Error");});
     doSomething();
     doSomething();
     doSomething();
